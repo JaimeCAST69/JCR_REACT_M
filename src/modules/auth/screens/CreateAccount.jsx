@@ -47,7 +47,7 @@ const CreateAccountScreen = () => {
         source={{ uri: 'https://i.blogs.es/fc31e6/github-copilot-1/450_1000.jpeg' }}
         style={styles.image}
       />
-      <Text style={styles.title}>Crear Cuenta</Text>
+      <Text style={styles.title}>Crear Cuenta gg</Text>
 
       <Input
         placeholder="Nombre completo"
