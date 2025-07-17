@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import CreateAccount from '../../modules/auth/screens/CreateAccount'
 import Login from '../../modules/auth/screens/Login'
 import { Icon } from '@rneui/base'
+import LoginStack from './LoginStack'
 function getTabBarIcon(route, active) {
  let iconName = '';
   switch (route.name) {
@@ -39,7 +40,7 @@ export default function Navigation() {
         })}
 
         >
-            <Tab.Screen name="Login" component={Login} />
+            <Tab.Screen name="Login" component={LoginStack} />
             <Tab.Screen name="CreateAccount" component={CreateAccount} />
         </Tab.Navigator>
     </NavigationContainer>

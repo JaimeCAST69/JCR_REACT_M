@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     marginBottom: 12
   },
   subtitle: {
-    fontSize: 18,
+    fontSize: 22,
     marginTop: 32,
     marginBottom: 8,
     fontWeight: 'bold',
@@ -132,12 +132,12 @@ const styles = StyleSheet.create({
     marginTop: 24
   },
   userItem: {
-    fontSize: 14,
+    fontSize: 23,
     color: '#444',
     marginVertical: 4
   },
   noUsers: {
-    fontSize: 14,
+    fontSize: 23,
     color: '#888',
     marginTop: 8
   }
